@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"></meta>  <!--也可以寫成<meta charset="UTF-8"/>-->
+        <meta name ="description" content="哈囉"/>
+        <meta name ="author" content="蠟筆小新"/>
+        <meta name ="keywords" content="貓咪,html"/>
+        <meta name ="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>網頁</title>
+        <style>
+            body {
+              background-color: pink;
+            }
+
+            @media screen and (min-width: 480px) {
+                body {
+                    background-color: rgb(247, 231, 146);
+                }
+            }
+            ul {
+                list-style-type: none;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+                background-color: #333;
+            }
+
+            li {
+                float: left;
+            }
+
+            li a {
+                display: block;
+                color: white;
+                text-align: center;
+                padding: 14px 16px;
+                text-decoration: none;
+            }
+
+            li a:hover {
+                background-color: #111;
+            }
+        </style>
+    </head>
+    <body>
+        <!-- html的註解方式-->
+         <!--有h1~h6-->
+         <ul style="font-size: 30px;">
+            <li><a class="active" href="index.html">首頁</a></li>
+            <li><a href="page2.html" >CSS</a></li>
+            <li><a href="page4.html" >Javascript</a></li>
+            <li><a href="page5.html" >剪頭髮</a></li>
+            <li><a href="page6.html" >文章</a></li>
+            <li><a href="page7.html" >創作</a></li>
+            <li><a href="https://www.google.com/webhp?sourceid=chrome&ie=UTF-8">google</a></li>
+          </ul>
+        你好網頁
+        <h1>html</h1>
+        <!--基本標籤-->
+        <h2>第一篇文章</h2>
+        <p>html標題有h1~h6</p>
+        <br/>   <!--換行-->
+        <hr/>   <!--有線換行-->
+        <h2>其他連結</h2>
+        <p><i>斜體字</i><b>粗體字</b></p>
+        <!-- 連結 & 圖片 -->
+         <h2>連結 & 圖片</h2>
+         <a href="dir/page3.html"style="font-size: 30px;">暫無</a>
+         <br/>
+         <a href="01.PNG"style="font-size: 30px;">貓咪</a>
+         <br/>
+         <a href="英雄戰場.txt">英雄戰場</a>
+         <br/>
+         <img src="01.PNG"/>    <!--網站內的圖片-->
+         <br/>
+         <img src="" width="400"/>    <!--網站外的圖片連結-->
+         <p>網站外的圖片連結，要在新分頁開啟圖片</p>
+         <p>只改長寬 其中一個屬性會等比放大縮小</p>
+         <hr/>
+         <!--影片 & 嵌入youtube影片-->
+         <h2>影片 & 嵌入youtube影片</h2>
+         <video src=""></video>
+         <iframe width="560" height="315" src="" allowfullscreen></iframe>
+         <hr/>
+         <!--列表&表格-->
+         <h2>列表與表格</h2>
+         <ul>
+            <li>google</li>
+            <li>fb</li>
+         </ul>
+         <ol>
+            <li>google</li>
+            <li>fb</li>
+         </ol>
+         <br/>
+         <ol type="A" style="color:red">
+            <li>google</li>
+            <li>fb</li>
+         </ol>
+    </body>
+
+    <table width="200" style="color: blue;">
+        <tr>
+            <td>日期</td>
+            <td>時間</td>
+            <td>地點</td>
+        </tr>
+        <tr>
+            <td>2024/09/25</td>
+            <td>05:08</td>
+            <td>台南</td>
+        </tr>
+    </table>
+    <hr/>
+    <!--html的容器 div & span-->
+    <h2>html的容器 div & span</h2>
+    <p>用一行程式碼就可以修改整個程式</p>
+    <div style="color: rgb(221, 155, 75);">
+        <ul>
+            <li>google</li>
+            <li>fb</li>
+         </ul>
+         <ol>
+            <li>google</li>
+            <li>fb</li>
+         </ol>
+         <ol type="A">
+            <li>google</li>
+            <li>fb</li>
+         </ol>
+    </body>
+
+    <table width="200">
+        <tr>
+            <td>日期</td>
+            <td>時間</td>
+            <td>地點</td>
+        </tr>
+        <tr>
+            <td>2024/09/25</td>
+            <td>05:08</td>
+            <td>台南</td>
+        </tr>
+    </table>
+    </div>
+    <hr/>
+    <h4 style="color: rgb(14, 105, 105);">span空間有多少就佔多少</h4>
+    <span>span1</span>
+    <span>span2</span>
+    <hr/>
+    <h4 style="color: brown;">div直接占一行</h4>
+    <div>div1</div>
+    <div>div2</div>
+    <br/>
+    <hr/>
+</html>
